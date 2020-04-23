@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Fira Mono', monospace;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.content {
+    display: grid;
+    place-items: center;
+    z-index: 999;
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.center-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.center-wrapper p {
+    margin: 0;
+}
+
+.bson-img {
+    width: 700px;
+}
+
+.standby-text {
+    font-size: 85px;
+    margin-top: 60px;
+    
+}
+
+.music-text {
+    font-size: 40px;
+    margin: auto auto 60px;
+}
+
+
+
+#particles-js {
+    grid-area: 1 / 1 / 1 / 1;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
