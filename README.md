@@ -1,6 +1,6 @@
 # Stream Screens
 
-Screens to use when streaming.
+Screens to use when streaming!
 
 # TODO
 - ~~Refactor to use Tailwind~~
