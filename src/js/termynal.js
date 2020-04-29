@@ -68,6 +68,7 @@ class Termynal {
             this.container.style.minHeight = containerStyle.height !== '0px' ? 
                 containerStyle.height : undefined;
 
+            
             this.container.setAttribute('data-termynal', '');
             this.container.innerHTML = '';
             
