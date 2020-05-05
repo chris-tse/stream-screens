@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search)
 const group = params.get('group')
-const showMusic = params.get('showMusic') === 'T'
+const showMusic = params.get('showMusic') === 'on'
 
 if (group) {
     document.querySelector('#group-name').textContent = group
