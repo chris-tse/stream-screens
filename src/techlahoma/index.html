@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Streaming Splash Screens</title>
+        <link rel="stylesheet" href="../css/dist/tailwind.css" />
+    </head>
+    <body class="text-xl">
+        <div class="grid items-center justify-center h-screen">
+            <p></p>
+            <img class="w-100" src="./svg/jsonthebson.svg" alt="Json the Bson" />
+            <form
+                action="welcome"
+                method="GET"
+                class="flex flex-col justify-between border border-gray-600 p-6 rounded-md"
+            >
+                <label for="group" class="flex flex-col my-4">
+                    <span class="font-bold">Group</span>
+                    <input
+                        type="text"
+                        name="group"
+                        id="group"
+                        class="rounded-sm border border-solid border-grey-500 my-2 p-1"
+                    />
+                </label>
+                <p class="font-bold my-2">Music</p>
+                <label for="showMusic">
+                    Show Music?
+                    <input type="checkbox" name="showMusic" />
+                </label>
+                <label for="musicText">
+                    Music Text
+                    <input
+                        type="text"
+                        name="musicText"
+                        id="musicText"
+                        class="rounded-sm border border-solid border-grey-500 flex flex-col"
+                    />
+                </label>
+                <button type="submit" class="bg-black text-white rounded-sm my-4">Go</button>
+            </form>
+            <p></p>
+        </div>
+    </body>
+</html>
